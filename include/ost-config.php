@@ -30,19 +30,19 @@ if(OSTINSTALLED!=TRUE){
 }
 
 # Encrypt/Decrypt secret key - randomly generated during installation.
-define('SECRET_SALT','Mo02BWXx3CrjY1UVx15fSwENYMuT5HVV');
+define('SECRET_SALT','xxxxxxxxxx');
 
 #Default admin email. Used only on db connection issues and related alerts.
-define('ADMIN_EMAIL','sushanth@cloudifyops.com');
+#define('ADMIN_EMAIL','admin@localhost.com');
 
 # Database Options
 # ---------------------------------------------------
 # Mysql Login info
-define('DBTYPE','mysql');
-define('DBHOST','localhost');
-define('DBNAME','osticket');
-define('DBUSER','ostdbusr');
-define('DBPASS','ostdbpass');
+#define('DBTYPE','mysql');
+#define('DBHOST','localhost');
+#define('DBNAME','dbname');
+#define('DBUSER','dbuser');
+#define('DBPASS','dbpass');
 
 # Table prefix
 define('TABLE_PREFIX','ost_');
